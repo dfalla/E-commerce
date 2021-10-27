@@ -1,4 +1,4 @@
-import './ProductCart.css';
+import './ProductCart.scss';
 import { useSelector } from 'react-redux';
 import React, { useState } from 'react';
 import { Modal, Button, Table } from 'react-bootstrap';

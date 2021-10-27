@@ -1,5 +1,5 @@
 
-import './ProductCard.css';
+import './ProductCard.scss';
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
