@@ -9,7 +9,7 @@ const productService = {
 
         const { data } = await axios.get(`${baseApi}search.php?s=${filter.productName}`)
         
-        return data.drinks == null ? [] : data.drinks;
+        return data.drinks || [] ;
     }
 }
 

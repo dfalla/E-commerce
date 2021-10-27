@@ -1,3 +1,4 @@
+import './ProductSearch.scss';
 import React, { useState, useEffect } from "react";
 import { useDispatch } from 'react-redux';
 import { Form, Button, Row, Col } from 'react-bootstrap';
